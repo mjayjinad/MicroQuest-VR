@@ -1,0 +1,639 @@
+fileFormatVersion: 2
+guid: c83893913d0b99e4e8dcb391d90a511a
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable:
+  - first:
+      74: 5812220751296067160
+    second: asd
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: oz_alien_rig:Head/oz_alien_rig:Head01/oz_alien_rig:body_world
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: walk_loop
+      takeName: walk_loop
+      internalID: 0
+      firstFrame: 17
+      lastFrame: 41
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 17
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: walk_loop(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:Head
+      parentName: walk_loop(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:Head01
+      parentName: oz_alien_rig:Head
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 20, y: 20, z: 20}
+    - name: oz_alien_rig:body_world
+      parentName: oz_alien_rig:Head01
+      position: {x: 0, y: -0.03843979, z: 0.035881244}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_root
+      parentName: oz_alien_rig:body_world
+      position: {x: 0.0062035606, y: 0.16940029, z: 0}
+      rotation: {x: 0.579656, y: -0.40496778, z: -0.5606416, w: 0.4309072}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_spine0
+      parentName: oz_alien_rig:b_root
+      position: {x: -0.03662106, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_spine1
+      parentName: oz_alien_rig:b_spine0
+      position: {x: -0.03662106, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_spine2
+      parentName: oz_alien_rig:b_spine1
+      position: {x: -0.03662106, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_spine3
+      parentName: oz_alien_rig:b_spine2
+      position: {x: -0.04142248, y: 2.664535e-17, z: 1.998401e-17}
+      rotation: {x: 0.074065894, y: -0.00090610626, z: 0.049268086, w: 0.99603516}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_l_shoulder
+      parentName: oz_alien_rig:b_spine3
+      position: {x: -0.02386645, y: 0.0062729595, z: 0.04339898}
+      rotation: {x: -0.10902969, y: 0.65723467, z: -0.08535102, w: 0.7408579}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_l_arm
+      parentName: oz_alien_rig:b_l_shoulder
+      position: {x: -0.04907373, y: -0.02104307, z: 0.01040073}
+      rotation: {x: 0.23507145, y: 0.0651791, z: 0.05125711, w: 0.96843475}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:p_l_arm_twist
+      parentName: oz_alien_rig:b_l_arm
+      position: {x: -0.03, y: 0, z: 0}
+      rotation: {x: 0.0035286818, y: -0, z: -0, w: 0.9999938}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_l_forearm
+      parentName: oz_alien_rig:b_l_arm
+      position: {x: -0.09227999, y: 0, z: 0.00000506}
+      rotation: {x: 0.002806112, y: 0.0026976315, z: -0.036951885, w: 0.9993095}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:p_l_forearm_twist1
+      parentName: oz_alien_rig:b_l_forearm
+      position: {x: -0.024999999, y: 0, z: 0.00000065}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:p_l_forearm_twist2
+      parentName: oz_alien_rig:b_l_forearm
+      position: {x: -0.049999997, y: 0, z: 0.00000171}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_l_wrist
+      parentName: oz_alien_rig:b_l_forearm
+      position: {x: -0.0769, y: 0, z: 0}
+      rotation: {x: 0.8312676, y: 0.0049755187, z: -0.16339292, w: 0.531293}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_l_index1
+      parentName: oz_alien_rig:b_l_wrist
+      position: {x: -0.030578159, y: -0.024610259, z: -0.01587542}
+      rotation: {x: -0.108615324, y: 0.09887407, z: 0.18901506, w: 0.9709274}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_l_index2
+      parentName: oz_alien_rig:b_l_index1
+      position: {x: -0.02371868, y: 0, z: 0}
+      rotation: {x: 0.08070542, y: -0.0035722842, z: -0.032872215, w: 0.9961894}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_l_index3
+      parentName: oz_alien_rig:b_l_index2
+      position: {x: -0.01538238, y: 0, z: 0}
+      rotation: {x: -0.116330385, y: -0.0025823084, z: -0.03310297, w: 0.99265546}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_l_index_null
+      parentName: oz_alien_rig:b_l_index3
+      position: {x: -0.024108099, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_l_middle1
+      parentName: oz_alien_rig:b_l_wrist
+      position: {x: -0.0292841, y: -0.016095819, z: 0.0090938695}
+      rotation: {x: -0.12941124, y: 0.0976487, z: 0.19375001, w: 0.9675631}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_l_middle2
+      parentName: oz_alien_rig:b_l_middle1
+      position: {x: -0.02267127, y: 0, z: 0}
+      rotation: {x: -0.07403769, y: 0.00036437807, z: -0.028118726, w: 0.99685884}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_l_middle3
+      parentName: oz_alien_rig:b_l_middle2
+      position: {x: -0.01590572, y: 0, z: 0}
+      rotation: {x: 0.08191216, y: 0.007466245, z: -0.03434105, w: 0.99601984}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_l_middle_null
+      parentName: oz_alien_rig:b_l_middle3
+      position: {x: -0.024394829, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_l_ring1
+      parentName: oz_alien_rig:b_l_wrist
+      position: {x: -0.0198432, y: -0.0014432301, z: 0.029621249}
+      rotation: {x: -0.08104214, y: 0.10565333, z: 0.1925723, w: 0.97220653}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_l_ring2
+      parentName: oz_alien_rig:b_l_ring1
+      position: {x: -0.018885259, y: 0, z: 0}
+      rotation: {x: -0.04685883, y: -0.00035818657, z: -0.02851089, w: 0.99849457}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_l_ring3
+      parentName: oz_alien_rig:b_l_ring2
+      position: {x: -0.01386029, y: 0, z: 0}
+      rotation: {x: -0.05688326, y: -0.0065810233, z: -0.03372023, w: 0.99778956}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_l_ring_null
+      parentName: oz_alien_rig:b_l_ring3
+      position: {x: -0.020578219, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_l_thumb0
+      parentName: oz_alien_rig:b_l_wrist
+      position: {x: -0.00690983, y: 0.00261658, z: -0.00912732}
+      rotation: {x: 0.16547732, y: -0.056579303, z: 0.50903803, w: 0.84279084}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_l_thumb1
+      parentName: oz_alien_rig:b_l_thumb0
+      position: {x: -0.00790877, y: 0, z: 0}
+      rotation: {x: 0.0029548549, y: -0.00029956916, z: 0.018638518, w: 0.99982196}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_l_thumb2
+      parentName: oz_alien_rig:b_l_thumb1
+      position: {x: -0.01702769, y: 0, z: 0}
+      rotation: {x: -0.05622975, y: 0.0011304328, z: -0.005352098, w: 0.9984029}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_l_thumb3
+      parentName: oz_alien_rig:b_l_thumb2
+      position: {x: -0.02540885, y: 0, z: 0}
+      rotation: {x: 0.15600358, y: 0.0019556282, z: -0.15717746, w: 0.9751689}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_l_thumb_null
+      parentName: oz_alien_rig:b_l_thumb3
+      position: {x: -0.03022196, y: 0, z: 0}
+      rotation: {x: 0.41688952, y: -0, z: -0, w: 0.9089572}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_l_grip
+      parentName: oz_alien_rig:b_l_wrist
+      position: {x: -0.04197927, y: 0.01667043, z: -0.004555001}
+      rotation: {x: -0.4875624, y: -0.31062376, z: 0.69622576, w: 0.42551792}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_neck0
+      parentName: oz_alien_rig:b_spine3
+      position: {x: -0.03301104, y: 0.00719856, z: 0}
+      rotation: {x: -0.00086343876, y: -0.022641577, z: 0.038097616, w: 0.9990171}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:p_neck_twist
+      parentName: oz_alien_rig:b_neck0
+      position: {x: -0.03276731, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_head
+      parentName: oz_alien_rig:b_neck0
+      position: {x: -0.060490698, y: 6.892681e-10, z: 0.0000000027798628}
+      rotation: {x: -0.050384346, y: -0.025410118, z: 0.019850228, w: 0.9982093}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_l_antennae0
+      parentName: oz_alien_rig:b_head
+      position: {x: -0.34061697, y: 0.02773417, z: 0.05372272}
+      rotation: {x: 0.6799869, y: -0.6677592, z: -0.29117617, w: 0.083258644}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_l_antennae1
+      parentName: oz_alien_rig:b_l_antennae0
+      position: {x: 4.440892e-18, y: 0.07162423, z: 7.1054265e-17}
+      rotation: {x: -0.06811974, y: -0.013742718, z: -0.0057809483, w: 0.9975658}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_l_antennae2
+      parentName: oz_alien_rig:b_l_antennae1
+      position: {x: -0, y: 0.064463615, z: 0}
+      rotation: {x: -0.4531185, y: 0.56132555, z: -0.42666233, w: 0.54548746}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_l_ear0
+      parentName: oz_alien_rig:b_head
+      position: {x: -0.17186046, y: 0.01301005, z: 0.018883198}
+      rotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_l_ear1
+      parentName: oz_alien_rig:b_l_ear0
+      position: {x: -0.10277942, y: -0.09037914, z: -0.013580809}
+      rotation: {x: 0.18099037, y: -0.3350424, z: 0.43947622, w: 0.8135415}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_l_ear2
+      parentName: oz_alien_rig:b_l_ear1
+      position: {x: -0.059083708, y: -0.000000001109311, z: 0.0000000034000418}
+      rotation: {x: 0.020113062, y: 0.012894738, z: -0.014769257, w: 0.9996055}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_l_ear3
+      parentName: oz_alien_rig:b_l_ear2
+      position: {x: -0.1269086, y: 0.004365003, z: 4.091848e-10}
+      rotation: {x: -0.59864014, y: 0.79399365, z: -0.0871199, w: -0.060118273}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_l_ear4
+      parentName: oz_alien_rig:b_l_ear3
+      position: {x: 0.000000005833384, y: 0.1419821, z: -6.080756e-10}
+      rotation: {x: -0.026481781, y: -0.097161405, z: 0.09693989, w: 0.99018234}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_l_ear5
+      parentName: oz_alien_rig:b_l_ear4
+      position: {x: 3.5527136e-17, y: 0.13282472, z: 0}
+      rotation: {x: -0.5196447, y: 0.82733, z: -0.1497087, w: 0.15192689}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_r_ear0
+      parentName: oz_alien_rig:b_head
+      position: {x: -0.17186035, y: 0.01301004, z: -0.018883198}
+      rotation: {x: 0.7071068, y: 4.3297806e-17, z: -0.7071068, w: 4.3297806e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_r_ear1
+      parentName: oz_alien_rig:b_r_ear0
+      position: {x: 0.1027798, y: 0.090379104, z: 0.013581}
+      rotation: {x: 0.18099037, y: -0.3350424, z: 0.43947622, w: 0.8135415}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_r_ear2
+      parentName: oz_alien_rig:b_r_ear1
+      position: {x: 0.05908379, y: 0.0000004507679, z: -0.0000002795743}
+      rotation: {x: 0.0153856175, y: -0.002921891, z: -0.013889216, w: 0.9997809}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_r_ear3
+      parentName: oz_alien_rig:b_r_ear2
+      position: {x: 0.12400329, y: -0.0062046805, z: 0.003901191}
+      rotation: {x: -0.59871906, y: 0.7875117, z: -0.12237472, w: -0.079907626}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_r_ear4
+      parentName: oz_alien_rig:b_r_ear3
+      position: {x: 0.0000000860267, y: -0.1419814, z: 0.0000007723162}
+      rotation: {x: -0.016772477, y: 0.08618166, z: 0.08045684, w: 0.99288374}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_r_ear5
+      parentName: oz_alien_rig:b_r_ear4
+      position: {x: 0.00000018493502, y: -0.13282427, z: 0.0000007127271}
+      rotation: {x: -0.5196447, y: 0.82733, z: -0.1497087, w: 0.15192689}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_l_eye
+      parentName: oz_alien_rig:b_head
+      position: {x: -0.1904886, y: 0.10327657, z: 0.06731997}
+      rotation: {x: -0.44007656, y: 0.47269344, z: 0.55305195, w: 0.52633363}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_r_eye
+      parentName: oz_alien_rig:b_head
+      position: {x: -0.19048835, y: 0.10327644, z: -0.06732}
+      rotation: {x: -0.52636105, y: 0.5530841, z: 0.47041023, w: 0.44244364}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_r_antennae0
+      parentName: oz_alien_rig:b_head
+      position: {x: -0.3428597, y: 0.027734179, z: -0.05463848}
+      rotation: {x: 0.7078666, y: -0.6755238, z: 0.20300786, w: -0.03715135}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_r_antennae1
+      parentName: oz_alien_rig:b_r_antennae0
+      position: {x: 8.881784e-18, y: 0.071624696, z: -1.4210849e-16}
+      rotation: {x: 0.068114795, y: 0.012672869, z: -0.0058527603, w: 0.9975799}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_r_antennae2
+      parentName: oz_alien_rig:b_r_antennae1
+      position: {x: 2.6645352e-17, y: 0.064464144, z: 7.105427e-17}
+      rotation: {x: 0.5607407, y: 0.45266145, z: -0.54608774, w: -0.42714828}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_r_shoulder
+      parentName: oz_alien_rig:b_spine3
+      position: {x: -0.0238661, y: 0.0062729595, z: -0.043399}
+      rotation: {x: 0.7070539, y: 0.00864942, z: -0.7070539, w: 0.00864942}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_r_arm
+      parentName: oz_alien_rig:b_r_shoulder
+      position: {x: 0.0490737, y: 0.021043079, z: -0.01040034}
+      rotation: {x: -0.040275116, y: 0.024074167, z: 0.08070399, w: 0.9956331}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:p_r_arm_twist
+      parentName: oz_alien_rig:b_r_arm
+      position: {x: 0.03000011, y: -0.00000004, z: -0.00000042}
+      rotation: {x: 0.0035286818, y: -0, z: -0, w: 0.9999938}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_r_forearm
+      parentName: oz_alien_rig:b_r_arm
+      position: {x: 0.09228018, y: 0.00000003, z: -0.00000514}
+      rotation: {x: 0.0012002549, y: -0.00097590673, z: -0.024546009, w: 0.99969757}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:p_r_forearm_twist1
+      parentName: oz_alien_rig:b_r_forearm
+      position: {x: 0.02499999, y: -0.000000049999997, z: -0.00000076}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:p_r_forearm_twist2
+      parentName: oz_alien_rig:b_r_forearm
+      position: {x: 0.04999997, y: -0.000000049999997, z: -0.00000152}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_r_wrist
+      parentName: oz_alien_rig:b_r_forearm
+      position: {x: 0.07689995, y: -0.00000007, z: -0.00000040999998}
+      rotation: {x: 0.8230437, y: 0.0797783, z: -0.1883846, w: 0.5298545}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_r_index1
+      parentName: oz_alien_rig:b_r_wrist
+      position: {x: 0.03057769, y: 0.02461097, z: 0.01587526}
+      rotation: {x: -0.10861306, y: 0.09887741, z: 0.18903486, w: 0.9709235}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_r_index2
+      parentName: oz_alien_rig:b_r_index1
+      position: {x: 0.02371928, y: -0.00000066, z: 0}
+      rotation: {x: 0.080705225, y: -0.0035747502, z: -0.032886878, w: 0.9961889}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_r_index3
+      parentName: oz_alien_rig:b_r_index2
+      position: {x: 0.0153815495, y: -0.00000001, z: 0.000000049999997}
+      rotation: {x: -0.116330385, y: -0.0025826418, z: -0.0331096, w: 0.9926552}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_r_index_null
+      parentName: oz_alien_rig:b_r_index3
+      position: {x: 0.0241084, y: 0.00000025, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_r_middle1
+      parentName: oz_alien_rig:b_r_wrist
+      position: {x: 0.02928409, y: 0.01609635, z: -0.009094169}
+      rotation: {x: -0.1294099, y: 0.09765049, z: 0.19375888, w: 0.9675613}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_r_middle2
+      parentName: oz_alien_rig:b_r_middle1
+      position: {x: 0.02267102, y: -0.00000014999999, z: 0.00000003}
+      rotation: {x: -0.0740377, y: 0.0003653914, z: -0.028129155, w: 0.9968586}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_r_middle3
+      parentName: oz_alien_rig:b_r_middle2
+      position: {x: 0.015905619, y: 0.00000025, z: -0.00000001}
+      rotation: {x: 0.08191222, y: 0.007467422, z: -0.034334507, w: 0.99601996}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_r_middle_null
+      parentName: oz_alien_rig:b_r_middle3
+      position: {x: 0.024395261, y: 0, z: 0.000000049999997}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_r_ring1
+      parentName: oz_alien_rig:b_r_wrist
+      position: {x: 0.01984342, y: 0.00144362, z: -0.02962152}
+      rotation: {x: -0.08104333, y: 0.10566186, z: 0.19259283, w: 0.97220147}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_r_ring2
+      parentName: oz_alien_rig:b_r_ring1
+      position: {x: 0.01888437, y: -0.0000005, z: 0.00000024}
+      rotation: {x: -0.046859823, y: -0.0003633125, z: -0.028539687, w: 0.9984936}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_r_ring3
+      parentName: oz_alien_rig:b_r_ring2
+      position: {x: 0.01386044, y: 0.00000045, z: -0.00000008}
+      rotation: {x: -0.056883767, y: -0.006580108, z: -0.03370897, w: 0.9977899}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_r_ring_null
+      parentName: oz_alien_rig:b_r_ring3
+      position: {x: 0.02057807, y: 0.000000099999994, z: -0.00000002}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_r_thumb0
+      parentName: oz_alien_rig:b_r_wrist
+      position: {x: 0.0069095995, y: -0.00261619, z: 0.00912715}
+      rotation: {x: 0.2421822, y: -0.17330481, z: 0.3803884, w: 0.87556714}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_r_thumb1
+      parentName: oz_alien_rig:b_r_thumb0
+      position: {x: 0.00790857, y: 0.00000023, z: -0.00000056}
+      rotation: {x: 0.0029479112, y: -0.0002415627, z: 0.018674036, w: 0.99982125}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_r_thumb2
+      parentName: oz_alien_rig:b_r_thumb1
+      position: {x: 0.01702764, y: -0.00000066, z: 0.00000083}
+      rotation: {x: -0.056252316, y: 0.0011035234, z: -0.005374058, w: 0.9984016}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_r_thumb3
+      parentName: oz_alien_rig:b_r_thumb2
+      position: {x: 0.0254089, y: 0.00000003, z: -0.00000019}
+      rotation: {x: 0.15600358, y: 0.0019556282, z: -0.15717746, w: 0.9751689}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_r_thumb_null
+      parentName: oz_alien_rig:b_r_thumb3
+      position: {x: 0.0302218, y: -0.00000012999999, z: -0.00000042}
+      rotation: {x: 0.41688952, y: -0, z: -0, w: 0.9089572}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_r_grip
+      parentName: oz_alien_rig:b_r_wrist
+      position: {x: 0.04197925, y: -0.01667016, z: 0.0045548608}
+      rotation: {x: -0.4875624, y: -0.31062376, z: 0.69622576, w: 0.42551792}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:p_pelvis
+      parentName: oz_alien_rig:b_root
+      position: {x: 0.03381274, y: 0, z: 0}
+      rotation: {x: -0.09811173, y: 0.056895506, z: 0.99262816, w: -0.04273626}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:transform1
+      parentName: oz_alien_rig:p_pelvis
+      position: {x: -0.13892959, y: 0.007549689, z: 0.00010822526}
+      rotation: {x: 0.53171515, y: 0.49236962, z: -0.50655156, w: 0.46717948}
+      scale: {x: 0.05, y: 0.05, z: 0.05}
+    - name: oz_alien_rig:b_tail01
+      parentName: oz_alien_rig:transform1
+      position: {x: -2.824407e-15, y: 3.98, z: -2.03}
+      rotation: {x: 0.004332268, y: -0.29493055, z: -0.61357015, w: 0.7324813}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_tail02
+      parentName: oz_alien_rig:b_tail01
+      position: {x: -2.784403, y: -1.634248e-15, z: -4.547474e-15}
+      rotation: {x: 0.155727, y: -0.2956938, z: 0.43918592, w: 0.83392453}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_tail03
+      parentName: oz_alien_rig:b_tail02
+      position: {x: -2.411628, y: 0, z: 8.5265126e-16}
+      rotation: {x: 0.069919325, y: -0.26204607, z: 0.4295017, w: 0.86137766}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_tail04
+      parentName: oz_alien_rig:b_tail03
+      position: {x: -3.037785, y: 3.819167e-16, z: 5.6323395e-19}
+      rotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_l_upleg
+      parentName: oz_alien_rig:b_root
+      position: {x: -0.01029858, y: -0.022311188, z: 0.08949598}
+      rotation: {x: -0.04340747, y: -0.0353792, z: 0.9612628, w: -0.26988494}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_l_leg
+      parentName: oz_alien_rig:b_l_upleg
+      position: {x: -0.083851755, y: 0, z: 0}
+      rotation: {x: -0.00016525203, y: 0.001542722, z: -0.027516507, w: 0.9996202}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:p_l_leg_twist
+      parentName: oz_alien_rig:b_l_leg
+      position: {x: -0.02, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_l_foot
+      parentName: oz_alien_rig:b_l_leg
+      position: {x: -0.046139996, y: 0, z: 0}
+      rotation: {x: 0.0657808, y: -0.04511552, z: -0.49505964, w: 0.86518985}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_l_ball
+      parentName: oz_alien_rig:b_l_foot
+      position: {x: 0.09116338, y: -0.026858909, z: 0.02655163}
+      rotation: {x: 0.028801914, y: -0.1770879, z: -0.029661931, w: 0.98332626}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:p_l_upleg_twist
+      parentName: oz_alien_rig:b_l_upleg
+      position: {x: -0.04, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_r_upleg
+      parentName: oz_alien_rig:b_root
+      position: {x: 0.023981139, y: -0.048622012, z: -0.07532717}
+      rotation: {x: 0.0009434521, y: 0.04775694, z: 0.03664832, w: 0.99818605}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_r_leg
+      parentName: oz_alien_rig:b_r_upleg
+      position: {x: 0.08385219, y: -0.00000016, z: 0.00000004}
+      rotation: {x: -0.048709765, y: -0.05532285, z: -0.11172065, w: 0.99100214}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:p_r_leg_twist
+      parentName: oz_alien_rig:b_r_leg
+      position: {x: 0.02, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_r_foot
+      parentName: oz_alien_rig:b_r_leg
+      position: {x: 0.046139996, y: 0, z: 0.000000049999997}
+      rotation: {x: 0.06743189, y: 0.0011226496, z: -0.6346097, w: 0.7698846}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:b_r_ball
+      parentName: oz_alien_rig:b_r_foot
+      position: {x: -0.09116338, y: 0.02685899, z: -0.026551329}
+      rotation: {x: 0.028801914, y: -0.1770879, z: -0.029661931, w: 0.98332626}
+      scale: {x: 1, y: 1, z: 1}
+    - name: oz_alien_rig:p_r_upleg_twist
+      parentName: oz_alien_rig:b_r_upleg
+      position: {x: 0.04, y: -0.00000021999999, z: 0.00000004}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: oz_alien_rig:body_world
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
