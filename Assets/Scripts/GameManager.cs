@@ -70,6 +70,12 @@ public class GameManager : MonoBehaviour
         levelActive = true;
 
         currentCheckpoint = checkpoints[currentLevel];
+
+        foreach (Transform checkpoint in checkpoints)
+        {
+            checkpoint.gameObject.SetActive(false);
+        }
+
         currentCheckpoint.gameObject.SetActive(true);
 
         SaveCharacterStartTransform();

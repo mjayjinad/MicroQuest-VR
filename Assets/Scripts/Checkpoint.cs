@@ -7,6 +7,7 @@ public class Checkpoint : MonoBehaviour
         if (other.CompareTag("MiniCharacter"))
         {
             GameManager.Instance.OnCheckpointReached();
+            gameObject.SetActive(false);
         }
     }
 }
