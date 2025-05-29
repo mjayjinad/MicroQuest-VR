@@ -1,5 +1,5 @@
-# Miniature Nexus
-Miniature Nexus is a VR puzzle adventure prototype where players control a miniature character via a virtual tablet inside an immersive VR environment. The core gameplay revolves around coordinating between room-scale player interactions and guiding the mini character through timed checkpoints arranged vertically in the space.
+# MicroQuest VR
+MicroQuest VR is a puzzle adventure prototype where players control a miniature character via a virtual tablet inside an immersive VR environment. The core gameplay revolves around coordinating between room-scale player interactions and guiding the mini character through timed checkpoints arranged vertically in the space.
 
 # Features
 1. Dual-scale gameplay: control a miniature character using a virtual AR tablet within VR
